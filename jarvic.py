@@ -71,111 +71,111 @@ if __name__ == "__main__":
             print('')
 
         #2-Sending emails
-        if '' in query:
+        elif '' in query:
             print('')
 
         #3-Sending Whatsapp massage
-        if '' in query:
+        elif '' in query:
             print('')
 
         #4-Weather
-        if '' in query:
+        elif '' in query:
             print('')
 
         #5-Math
-        if '' in query:
+        elif '' in query:
             print('')
 
         #6-Time zone conversions
-        if '' in query:
+        elif '' in query:
             print('')
 
 
         #7-Definitions, synonyms, antonyms, or etymologies of words
-        if '' in query:
+        elif '' in query:
             print('')
 
         #8-Site searches
-        if '' in query:
+        elif '' in query:
             print('')
 
         #9-Open app
-        if '' in query:
+        elif '' in query:
             print('')
 
         #10-Play music from system
-        if '' in query:
+        elif '' in query:
             print('')
 
         #11-Play music from soundcloud
-        if '' in query:
+        elif '' in query:
             print('')
 
         #12-Identify songs
-        if '' in query:
+        elif '' in query:
             print('')
 
         #13-Take a picture
-        if '' in query:
+        elif '' in query:
             print('')
 
         #14-What time is it
-        if '' in query:
+        elif '' in query:
             print('')
 
         #15-Read news
-        if '' in query:
+        elif '' in query:
             print('')
 
         #16-Shutdown
-        if '' in query:
+        elif '' in query:
             print('')
 
         #17-Roll a die or roll two dice
-        if '' in query:
+        elif '' in query:
             print('')
 
         #18-Flip a coin
-        if '' in query:
+        elif '' in query:
             print('')
 
         #19-What is your favorite color
-        if '' in query:
+        elif '' in query:
             print('')
 
         #20-Tell me a joke
-        if '' in query:
+        elif '' in query:
             print('')
 
         #21-Learn how to say my name
-        if '' in query:
+        elif '' in query:
             print('')
 
         #22-repeat after me
-        if '' in query:
+        elif '' in query:
             print('')
 
         #23-Reminder
-        if '' in query:
+        elif '' in query:
             print('')
 
         #24-YouTube Search
-        if '' in query:
+        elif '' in query:
             print('')
 
 
         #25-YouTube Video Downloader
-        if '' in query:
+        elif '' in query:
             print('')
 
         #26-Speed Test
-        if '' in query:
+        elif '' in query:
             print('')
 
         #27-Corona Tracker
-        if '' in query:
+        elif '' in query:
             print('')
 
         #28-Goodbye
-        if '' in query:
+        elif '' in query:
             print('')
