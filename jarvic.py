@@ -43,8 +43,6 @@ def wishMe():
     speak("I am Jarvis Sir. Please tell me how may I help you")       
 
 def takeCommand():
-    #It takes microphone input from the user and returns string output
-
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print("Listening...")
@@ -57,24 +55,127 @@ def takeCommand():
         print(f"User said: {query}\n")
 
     except Exception as e:
-        # print(e)    
         print("Say that again please...")  
         return "None"
     return query
 
-def sendEmail(to, content):
-    server = smtplib.SMTP('smtp.gmail.com', 587)
-    server.ehlo()
-    server.starttls()
-    server.login('youremail@gmail.com', 'your-password')
-    server.sendmail('youremail@gmail.com', to, content)
-    server.close()
 
 if __name__ == "__main__":
     wishMe()
     while True:
-    # if 1:
         query = takeCommand().lower()
+        #===================================================
+ 
+        #1-Set an alarm
+        if '' in query:
+            print('')
 
-        if 'open youtube' in query:
-            webbrowser.open("youtube.com")
+        #2-Sending emails
+        if '' in query:
+            print('')
+
+        #3-Sending Whatsapp massage
+        if '' in query:
+            print('')
+
+        #4-Weather
+        if '' in query:
+            print('')
+
+        #5-Math
+        if '' in query:
+            print('')
+
+        #6-Time zone conversions
+        if '' in query:
+            print('')
+
+
+        #7-Definitions, synonyms, antonyms, or etymologies of words
+        if '' in query:
+            print('')
+
+        #8-Site searches
+        if '' in query:
+            print('')
+
+        #9-Open app
+        if '' in query:
+            print('')
+
+        #10-Play music from system
+        if '' in query:
+            print('')
+
+        #11-Play music from soundcloud
+        if '' in query:
+            print('')
+
+        #12-Identify songs
+        if '' in query:
+            print('')
+
+        #13-Take a picture
+        if '' in query:
+            print('')
+
+        #14-What time is it
+        if '' in query:
+            print('')
+
+        #15-Read news
+        if '' in query:
+            print('')
+
+        #16-Shutdown
+        if '' in query:
+            print('')
+
+        #17-Roll a die or roll two dice
+        if '' in query:
+            print('')
+
+        #18-Flip a coin
+        if '' in query:
+            print('')
+
+        #19-What is your favorite color
+        if '' in query:
+            print('')
+
+        #20-Tell me a joke
+        if '' in query:
+            print('')
+
+        #21-Learn how to say my name
+        if '' in query:
+            print('')
+
+        #22-repeat after me
+        if '' in query:
+            print('')
+
+        #23-Reminder
+        if '' in query:
+            print('')
+
+        #24-YouTube Search
+        if '' in query:
+            print('')
+
+
+        #25-YouTube Video Downloader
+        if '' in query:
+            print('')
+
+        #26-Speed Test
+        if '' in query:
+            print('')
+
+        #27-Corona Tracker
+        if '' in query:
+            print('')
+
+        #28-Goodbye
+        if '' in query:
+            print('')
